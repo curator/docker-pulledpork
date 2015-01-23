@@ -6,7 +6,7 @@ Run the pulledpork client anywhere without any of the horror of perl dependencie
 "Installation"
 =============
 ```
-alias pulledpork="docker run --rm -it curator/docker-pulledpork"
+alias pulledpork="docker run --rm -it curator/pulledpork"
 ```
 
 Usage
@@ -19,7 +19,7 @@ pulledpork -help
 
 Tinkering:
 ```
-docker run -it -v ~/gitrepos/pulledpork:/etc/snort --entrypoint=/bin/bash --rm curator/docker-pulledpork -s
+docker run -it -v ~/gitrepos/pulledpork:/etc/snort --entrypoint=/bin/bash --rm curator/pulledpork -s
 ```
 
 Using:
